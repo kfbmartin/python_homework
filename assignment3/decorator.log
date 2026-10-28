@@ -1,0 +1,12 @@
+function: greeting
+positional parameters: none
+keyword parameters: none
+return: None
+function: positional_arguments
+positional parameters: (100, 200, 300)
+keyword parameters: none
+return: True
+function: keyword_arguments
+positional parameters: none
+keyword parameters: {'name': 'Khalilah', 'age': 25}
+return: <function logger_decorator at 0x100bebb00>
