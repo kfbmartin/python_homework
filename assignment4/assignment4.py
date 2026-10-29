@@ -78,8 +78,6 @@ print(clean_data)
 clean_data["Age"] = clean_data["Age"].fillna(clean_data["Age"].mean())
 clean_data["Salary"] = clean_data["Salary"].fillna(clean_data["Salary"].median())
 
-
-
 # Covert Hire Date to Datetime
 clean_data["Hire Date"] = pd.to_datetime(clean_data ["Hire Date"], format="mixed", errors ="coerce")
 
